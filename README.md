@@ -52,8 +52,8 @@ The following models were evaluated:
 
 ## How to Use
 1. Clone this repository.
-2. Ensure all dependencies are installed: `pip install -r requirements.txt`.
-3. Run the notebook or Python script to execute the analysis.
+2. Ensure the following libraries are installed: `pip install pandas numpy matplotlib seaborn scikit-learn scipy joblib` 
+3. Run the notebook to execute the analysis.
 
 ---
 
@@ -61,28 +61,6 @@ The following models were evaluated:
 - `prostate_dataset.txt`: The dataset.
 - `prostate_analysis.ipynb`: Main Jupyter Notebook with the full analysis.
 - `elastic_net_model.pkl`: Saved Elastic Net model.
-- `requirements.txt`: List of required Python libraries.
 
 ---
-
-## Future Enhancements
-- Extend the analysis with additional models (e.g., Support Vector Regression).
-- Incorporate more robust methods for handling outliers.
-- Visualize feature importance for better interpretability.
-
----
-
-## Dependencies
-- Python 3.8+
-- Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, SciPy, Joblib
-
-Install dependencies with:
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## License
-This project is licensed under the MIT License.
 
